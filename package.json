@@ -1,12 +1,16 @@
 {
 	"name": "tabkit",
 	"fullName": "tabkit",
-	"id": "jid1-GmYXbGvkfG4mmA",
+	"id": "jid1-GmYXbGvkfG4mmA@jetpack",
 	"description": "Undoes last closed tab when middle clicking the tab bar and makes unloaded tabs semitransparent",
 	"author": "flying sheep",
 	"icon": "data/icon.png",
 	"license": "GPLv3",
-	"version": "1.0",
+	"version": "1.0.1",
+	"main": "lib/main.js",
+	"permissions": {
+		"multiprocess": true
+	},
 	"preferences": [{
 		"name": "unloadedTabOpacity",
 		"title": "How opaque should unloaded tabs be?",
