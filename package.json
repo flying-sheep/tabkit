@@ -6,7 +6,7 @@
 	"author": "flying sheep",
 	"icon": "data/icon.png",
 	"license": "GPLv3",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"main": "lib/main.js",
 	"permissions": {
 		"multiprocess": true
